@@ -262,7 +262,7 @@ docker compose -f ./jenkinsCompose/docker-compose.jenkins.yml up -d --build
 
 - FrontEnd Dockerfile 작성
 
-```docker
+```yaml
 FROM node:lts-alpine as build-stage-front
 
 WORKDIR /homepage/front
@@ -302,7 +302,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 - Admin Dockerfile 작성
 
-```docker
+```yaml
 FROM node:lts-alpine as build-stage
 
 WORKDIR /homepage
