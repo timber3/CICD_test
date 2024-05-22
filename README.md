@@ -626,15 +626,15 @@ docker compose -f ./ganacheCompose/docker-compose.ganache.yml up -d --build
 
 - GitLab 플러그인 설정
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5dbc2926-d470-44f5-a2d5-1ce0958022e3/1ef9587b-91d6-4336-993d-3a75ae5800c5/Untitled.png)
+![Jenkins내부설정1](https://github.com/timber3/CICD_test/assets/75405129/8f90f227-3638-455a-a9bd-4adfea4b96f6)
 
 - develop 브랜치에 Web Hook Trigger 설정
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5dbc2926-d470-44f5-a2d5-1ce0958022e3/52eb2b10-91d2-4c90-9760-86036f4f05e2/Untitled.png)
+![Jenkins내부설정2](https://github.com/timber3/CICD_test/assets/75405129/91063df2-6e3c-4609-9a65-300deed00768)
 
 - Jenkins Credential 설정 필요 (환경 설정 보안)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5dbc2926-d470-44f5-a2d5-1ce0958022e3/1d61bda3-2769-4404-ab44-795ce04ece71/Untitled.png)
+![Jenkins내부설정3](https://github.com/timber3/CICD_test/assets/75405129/a6a9bd61-d2c9-4fb3-8511-6e6a965a05fb)
 
 ```bash
 1. GitLab Respository Webhook Token
@@ -793,6 +793,6 @@ GitLab
 docker ps -a
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5dbc2926-d470-44f5-a2d5-1ce0958022e3/d9957fc2-d867-4f79-a5c2-34adbdf8d9c7/Untitled.png)
+![Build 사진](https://github.com/timber3/CICD_test/assets/75405129/eee28081-9246-463e-b662-63d0444f9c4c)
 
 [ 각 컨테이너의 STATUS 가 UP 인지 확인 ]
